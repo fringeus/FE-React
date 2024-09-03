@@ -70,7 +70,7 @@ const App: React.FC = () => {
           {isPalindrome ? "a palindrome!" : "not a palindrome."}
         </p>
       )}
-      {renderWordList(getWords(), isAPalindrome)}
+      {/* {renderWordList(getWords(), isAPalindrome)} */}
     </div>
   );
 };
